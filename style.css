@@ -34,7 +34,6 @@ img {
 }
 .top_sidejs {
     background-color: rgba(0, 0, 0, 0.711);
-    border-bottom: 2px dashed white;
 }
 .logo {
     text-transform: uppercase;
@@ -644,6 +643,17 @@ img {
         left: 20px;
         top: 20px;
         z-index: 1;
+        animation: change 0.5s linear forwards;
+    }
+    @keyframes change {
+        0% {
+            transform: translateY(-120px) scale(0);
+            opacity: 0;
+        }
+        100% {
+            transform:translateY(0pc) scale(1);
+            opacity: 1;
+        }
     }
     .ul {
         background-color: rgba(0, 0, 0, 0.8);
@@ -773,6 +783,16 @@ img {
 @media(max-width:400px){
     .man {
         height: 150px;
+    }
+    .u {
+        font-size: 55px;
+    }
+    .t {
+        font-size: 40px;
+    }
+    .btn {
+        width: 30px;
+        height: 20px;
     }
     .net_link {
         margin-right: 10px;
