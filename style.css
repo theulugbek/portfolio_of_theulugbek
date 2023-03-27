@@ -243,7 +243,6 @@ img {
 }
 .sarlavha {
     text-align: center;
-    font-size: 45px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: dodgerblue;
     padding-bottom: 8px;
@@ -822,5 +821,47 @@ img {
     }
     .cover {
         padding: 0 10px;
+    }
+}
+@media(max-width:290px){
+    .p {
+        padding: 15px 5px;
+    }
+    .box {
+        padding: 50px 10px 30px;
+    }
+    .span {
+        font-size: 38px;
+    }
+    .sarlavha {
+        padding: 0;
+    }
+    .pic1 {
+        height: 200px;
+    }
+    .rasm1 {
+        width: 220px;
+        height: 220px;
+    }
+    .box1, .box2 {
+        border-radius: 0;
+    }
+    .projects {
+        margin-top: 0;
+        border-top: none;
+    }
+    .linkofproject {
+        margin-bottom: 10px;
+        height: 200px;
+    }
+    .item_resume {
+        font-size: 16px;
+    }
+    .resume {
+        padding: 10px;
+        margin-top: 20px;
+    }
+    .contact {
+        padding: 15px;
     }
 }
